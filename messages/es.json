@@ -1,0 +1,82 @@
+{
+  "Home": {
+    "subtitle": "Ingeniero de Computacion en la nube",
+    "name": "Christian David Espinel Moreno",
+    "view": "Ver CV",
+    "download": "Descargar CV"
+  },
+  "Nav": {
+    "about": "Acerca de mí",
+    "tools": "Herramientas",
+    "projects": "Proyectos",
+    "certificates": "Certificados",
+    "contactMe": "Contáctame"
+  }
+  ,
+  "Contact": {
+    "contactTitle": "Contacto",
+    "contactSubtitle": "Presiona los botones para copiar los datos al portapapeles",
+    "emailLabel": "correo@ejemplo.com",
+    "phoneLabel": "+57 300 000 0000",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "emailValue": "correo@ejemplo.com",
+    "phoneValue": "+57 300 000 0000"
+  }
+  ,
+  "About": {
+    "title": "Acerca de mí",
+    "p1": "Soy una persona orientada al trabajo en equipo, perfeccionista y enfocada en los detalles. Me adapto fácilmente a diferentes entornos y mantengo una actitud positiva que contribuye a generar un buen ambiente laboral.",
+    "p2": "Actualmente estoy formándome en el área de programación, con conocimientos en computación en la nube y metodologías ágiles. También he desempeñado el rol de Scrum Master, coordinando equipos y promoviendo la colaboración para alcanzar objetivos comunes de manera eficiente."
+  }
+    ,
+    "Tools": {
+      "title": "Herramientas y Servicios",
+      "subtitle": "Tecnologías y plataformas con las que trabajo — formal y amigable",
+      "next": { "formal": "Next.js", "friendly": "Next — SSR y React" },
+      "node": { "formal": "Node.js", "friendly": "Node — runtime de JS" },
+      "js": { "formal": "JavaScript", "friendly": "JS — Lenguaje de la web" },
+      "aws": { "formal": "AWS", "friendly": "AWS — Servicios en la nube" },
+      "git": { "formal": "Git", "friendly": "Git — control de versiones" },
+      "github": { "formal": "GitHub", "friendly": "GitHub — hospedaje de código" },
+      "vercel": { "formal": "Vercel", "friendly": "Vercel — despliegues" },
+      "mongodb": { "formal": "MongoDB", "friendly": "MongoDB — BD NoSQL" },
+      "postgres": { "formal": "Postgres", "friendly": "Postgres — BD relacional" },
+      "docker": { "formal": "Docker", "friendly": "Docker — Contenedores" }
+    }
+      ,
+      "Certificates": {
+        "title": "Certificados",
+        "subtitle": "Certificados y badges seleccionados",
+        "mongo": {
+          "title": "Building GenAI Apps — Learning Badge Path",
+          "provider": "Mongo",
+          "duration": "7.5 horas"
+        },
+        "coursera": {
+          "title": "Git y GitHub",
+          "provider": "Coursera",
+          "duration": "4.5 horas"
+        },
+        "platzi": {
+          "title": "Professional Scrum Master",
+          "provider": "Platzi",
+          "duration": "12 horas"
+        }
+      }
+        ,
+        "Projects": {
+          "project1": {
+            "title": "Sistema de Gestión Empresarial",
+            "description": "Gestión de productos, devoluciones, clientes y pedidos. Tecnologías: Next.js, Tailwind y MongoDB."
+          },
+          "project2": {
+            "title": "Formulario y Listado de Clientes",
+            "description": "Formulario y listado de clientes implementado con HTML, JavaScript y MySQL."
+          },
+          "project3": {
+            "title": "App que consume la API de Pixabay",
+            "description": "Aplicación web que consume la API de Pixabay. Tecnologías: Next.js, Tailwind y MongoDB Atlas."
+          }
+        }
+}

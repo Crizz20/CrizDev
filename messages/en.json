@@ -1,0 +1,83 @@
+{
+  "Home": {
+    "subtitle": "Cloud Computing Engineer",
+    "name": "Christian David Espinel Moreno",
+    "view": "View CV",
+    "download": "Download CV"
+  },
+  "Nav": {
+    "about": "About me",
+    "tools": "Tools",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "contactMe": "Contact me"
+  }
+  ,
+  "Contact": {
+    "contactTitle": "Contact",
+    "contactSubtitle": "Press the buttons to copy the data to the clipboard",
+    "emailLabel": "email@example.com",
+    "phoneLabel": "+1 555 000 0000",
+    "copy": "Copy",
+    "copied": "Copied!"
+    ,
+    "emailValue": "email@example.com",
+    "phoneValue": "+1 555 000 0000"
+  }
+  ,
+  "About": {
+    "title": "About me",
+    "p1": "I am a team-oriented person, perfectionist, and detail-focused. I easily adapt to different environments and maintain a positive attitude that helps create a pleasant and collaborative atmosphere.",
+    "p2": "I am currently training in the field of programming, with knowledge in cloud computing and agile methodologies. I have also performed the role of Scrum Master, coordinating teams and promoting collaboration to efficiently achieve common goals."
+  }
+    ,
+    "Tools": {
+      "title": "Tools & Services",
+      "subtitle": "Technologies and platforms I work with — formal and friendly",
+      "next": { "formal": "Next.js", "friendly": "Next — SSR & React" },
+      "node": { "formal": "Node.js", "friendly": "Node — JS runtime" },
+      "js": { "formal": "JavaScript", "friendly": "JS — Language of the web" },
+      "aws": { "formal": "AWS", "friendly": "AWS — Cloud services" },
+      "git": { "formal": "Git", "friendly": "Git — version control" },
+      "github": { "formal": "GitHub", "friendly": "GitHub — code hosting" },
+      "vercel": { "formal": "Vercel", "friendly": "Vercel — deployments" },
+      "mongodb": { "formal": "MongoDB", "friendly": "MongoDB — NoSQL DB" },
+      "postgres": { "formal": "Postgres", "friendly": "Postgres — Relational DB" },
+      "docker": { "formal": "Docker", "friendly": "Docker — Containers" }
+    }
+      ,
+      "Certificates": {
+        "title": "Certificates",
+        "subtitle": "Selected certifications and badges",
+        "mongo": {
+          "title": "Building GenAI Apps — Learning Badge Path",
+          "provider": "Mongo",
+          "duration": "7.5 hours"
+        },
+        "coursera": {
+          "title": "Git and GitHub",
+          "provider": "Coursera",
+          "duration": "4.5 hours"
+        },
+        "platzi": {
+          "title": "Professional Scrum Master",
+          "provider": "Platzi",
+          "duration": "12 hours"
+        }
+      }
+      ,
+      "Projects": {
+        "project1": {
+          "title": "Enterprise Management System",
+          "description": "Manage products, returns, customers and orders. Built with Next.js, Tailwind and MongoDB."
+        },
+        "project2": {
+          "title": "Client Listing & Form",
+          "description": "Client form and listing implemented with HTML, JavaScript and MySQL."
+        },
+        "project3": {
+          "title": "Pixabay API Consumer App",
+          "description": "Web app that consumes the Pixabay API. Built with Next.js, Tailwind and MongoDB Atlas."
+        }
+      }
+}
