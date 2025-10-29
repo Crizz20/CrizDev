@@ -79,7 +79,7 @@ export default function HomePage() {
             /* Mapa de íconos inline para no añadir dependencias */
           }
           {(() => {
-            const icons: Record<string, JSX.Element> = {
+            const icons: Record<string, any> = {
               next: <SiNextdotjs size={36} color="#FFFFFF" aria-label="Next.js" />,
               node: <SiNodedotjs size={36} color="#3C873A" aria-label="Node.js" />,
               js: <SiJavascript size={36} color="#F7DF1E" aria-label="JavaScript" />,
