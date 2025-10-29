@@ -118,8 +118,8 @@ export default function HomePage() {
   
     {/* ======= Sección Projects ======= */}
     <section id="projects" style={{ scrollMarginTop: '6rem' }} className="mt-12 w-full max-w-4xl border-t border-slate-700 pt-8 pb-20">
-          <h2 className="text-3xl font-bold mb-2">{tProj("project1.title") /* generic heading; individual titles per card */}</h2>
-          <p className="mb-6 text-lg text-slate-300">Aquí tienes algunos proyectos (placeholders). Sube imágenes llamadas proyec1..proyec4 en `public/images` y reemplaza textos.</p>
+          <h2 className="text-3xl font-bold mb-2">{tProj("title")}</h2>
+          <p className="mb-6 text-lg text-slate-300">{tProj("subtitle")}</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
             {[1,2,3].map((n) => {

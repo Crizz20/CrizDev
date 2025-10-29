@@ -67,6 +67,8 @@
       }
       ,
       "Projects": {
+        "title": "Projects",
+        "subtitle": "Completed projects — click to view larger",
         "project1": {
           "title": "Enterprise Management System",
           "description": "Manage products, returns, customers and orders. Built with Next.js, Tailwind and MongoDB."

@@ -66,6 +66,8 @@
       }
         ,
         "Projects": {
+          "title": "Proyectos",
+          "subtitle": "Proyectos realizados — haz click para ver de cerca",
           "project1": {
             "title": "Sistema de Gestión Empresarial",
             "description": "Gestión de productos, devoluciones, clientes y pedidos. Tecnologías: Next.js, Tailwind y MongoDB."
