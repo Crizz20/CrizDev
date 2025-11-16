@@ -55,46 +55,46 @@ export default function HomePage() {
     });
   };
 
-  const handleChange = (e) => {
+const handleChange = (
+  e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+) => {
   const { name, value } = e.target;
   setFormData((prev) => ({ ...prev, [name]: value }));
 };
 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSending(true);
-    setStatus("Enviando...");
 
-    emailjs
-      .send(
-        "service_3k8pk3h",
-        "template_e3yjpov",
-        {
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
-          time: new Date().toLocaleString(),
-        },
-        "KOsvjrvKetFavfozX"
-      )
-      .then(() => {
-        // éxito: limpiar formulario y mostrar mensaje
-        setStatus("Mensaje enviado con éxito!");
-        setFormData({ name: "", email: "", message: "" }); // <-- aquí limpiamos los campos
-        setIsSending(false);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setIsSending(true);
+  setStatus("Enviando...");
 
-        // opcional: quitar el estado después de 4s
-        setTimeout(() => setStatus(""), 4000);
-      })
-      .catch(() => {
-        setStatus("Hubo un error al enviar el mensaje.");
-        setIsSending(false);
+  emailjs
+    .send(
+      "service_3k8pk3h",
+      "template_e3yjpov",
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        time: new Date().toLocaleString(),
+      },
+      "KOsvjrvKetFavfozX"
+    )
+    .then(() => {
+      setStatus("Mensaje enviado con éxito!");
+      setFormData({ name: "", email: "", message: "" });
+      setIsSending(false);
 
-        // opcional: borrar mensaje de error luego de 4s
-        setTimeout(() => setStatus(""), 4000);
-      });
-  };
+      setTimeout(() => setStatus(""), 4000);
+    })
+    .catch(() => {
+      setStatus("Hubo un error al enviar el mensaje.");
+      setIsSending(false);
+
+      setTimeout(() => setStatus(""), 4000);
+    });
+};
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center text-center px-4 bg-slate-900 text-white">
