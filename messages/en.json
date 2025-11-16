@@ -1,6 +1,6 @@
 {
   "Home": {
-    "subtitle": "Cloud Computing Engineer",
+    "subtitle": "Backend Developer",
     "name": "Christian David Espinel Moreno",
     "view": "View CV",
     "download": "Download CV"
@@ -14,21 +14,18 @@
   }
   ,
   "Contact": {
-    "contactTitle": "Contact",
-    "contactSubtitle": "Press the buttons to copy the data to the clipboard",
-    "emailLabel": "email@example.com",
-    "phoneLabel": "+1 555 000 0000",
-    "copy": "Copy",
-    "copied": "Copied!"
-    ,
-    "emailValue": "email@example.com",
-    "phoneValue": "+1 555 000 0000"
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "submitButton": "Send message",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "There was an error sending the message."
   }
   ,
   "About": {
     "title": "About me",
     "p1": "I am a team-oriented person, perfectionist, and detail-focused. I easily adapt to different environments and maintain a positive attitude that helps create a pleasant and collaborative atmosphere.",
-    "p2": "I am currently training in the field of programming, with knowledge in cloud computing and agile methodologies. I have also performed the role of Scrum Master, coordinating teams and promoting collaboration to efficiently achieve common goals."
+    "p2": "I am a university student currently studying programming, with experience in cloud computing and agile methodologies. Throughout my education, I have taken on leadership roles, coordinating teams and fostering collaboration to achieve common goals efficiently."
   }
     ,
     "Tools": {
@@ -43,7 +40,7 @@
       "vercel": { "formal": "Vercel", "friendly": "Vercel — deployments" },
       "mongodb": { "formal": "MongoDB", "friendly": "MongoDB — NoSQL DB" },
       "postgres": { "formal": "Postgres", "friendly": "Postgres — Relational DB" },
-      "docker": { "formal": "Docker", "friendly": "Docker — Containers" }
+      "typescript": { "formal": "Typescript", "friendly": "Typescript — Open source language" }
     }
       ,
       "Certificates": {
@@ -74,8 +71,8 @@
           "description": "Manage products, returns, customers and orders. Built with Next.js, Tailwind and MongoDB."
         },
         "project2": {
-          "title": "Client Listing & Form",
-          "description": "Client form and listing implemented with HTML, JavaScript and MySQL."
+          "title": "Basic ecommerce",
+          "description": "Online store. Technologies: Next.js, Typescript, Tailwind and PostgreSQL."
         },
         "project3": {
           "title": "Pixabay API Consumer App",

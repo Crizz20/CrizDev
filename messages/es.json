@@ -1,6 +1,6 @@
 {
   "Home": {
-    "subtitle": "Ingeniero de Computacion en la nube",
+    "subtitle": "Desarrollador Backend",
     "name": "Christian David Espinel Moreno",
     "view": "Ver CV",
     "download": "Descargar CV"
@@ -14,20 +14,19 @@
   }
   ,
   "Contact": {
-    "contactTitle": "Contacto",
-    "contactSubtitle": "Presiona los botones para copiar los datos al portapapeles",
-    "emailLabel": "correo@ejemplo.com",
-    "phoneLabel": "+57 300 000 0000",
-    "copy": "Copiar",
-    "copied": "¡Copiado!",
-    "emailValue": "correo@ejemplo.com",
-    "phoneValue": "+57 300 000 0000"
+
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "messageLabel": "Mensaje",
+    "submitButton": "Enviar mensaje",
+    "successMessage": "¡Mensaje enviado con éxito!",
+    "errorMessage": "Hubo un error al enviar el mensaje."
   }
   ,
   "About": {
     "title": "Acerca de mí",
     "p1": "Soy una persona orientada al trabajo en equipo, perfeccionista y enfocada en los detalles. Me adapto fácilmente a diferentes entornos y mantengo una actitud positiva que contribuye a generar un buen ambiente laboral.",
-    "p2": "Actualmente estoy formándome en el área de programación, con conocimientos en computación en la nube y metodologías ágiles. También he desempeñado el rol de Scrum Master, coordinando equipos y promoviendo la colaboración para alcanzar objetivos comunes de manera eficiente."
+    "p2": "Soy estudiante universitario en formación en el área de programación, con experiencia en computación en la nube y metodologías ágiles. A lo largo de mi formación, he asumido roles de liderazgo, coordinando equipos de trabajo y fomentando la colaboración para lograr objetivos comunes de manera eficiente."
   }
     ,
     "Tools": {
@@ -42,7 +41,7 @@
       "vercel": { "formal": "Vercel", "friendly": "Vercel — despliegues" },
       "mongodb": { "formal": "MongoDB", "friendly": "MongoDB — BD NoSQL" },
       "postgres": { "formal": "Postgres", "friendly": "Postgres — BD relacional" },
-      "docker": { "formal": "Docker", "friendly": "Docker — Contenedores" }
+      "typescript": { "formal": "Typescript", "friendly": "Typescript — Lenguage de codigo abierto" }
     }
       ,
       "Certificates": {
@@ -73,8 +72,8 @@
             "description": "Gestión de productos, devoluciones, clientes y pedidos. Tecnologías: Next.js, Tailwind y MongoDB."
           },
           "project2": {
-            "title": "Formulario y Listado de Clientes",
-            "description": "Formulario y listado de clientes implementado con HTML, JavaScript y MySQL."
+            "title": "Ecommerse básico",
+            "description": "Tienda virtual. Tecnologías: Next.js, Typescript, Tailwind y Posgrest."
           },
           "project3": {
             "title": "App que consume la API de Pixabay",
