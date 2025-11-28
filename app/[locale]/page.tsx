@@ -115,23 +115,13 @@ const handleChange = (
       <h1 className="text-5xl font-extrabold mb-4">{t("subtitle")}</h1>
       <p className="text-2xl mb-6">{t("name")}</p>
 
-      <div className="mb-6">
-        {/* Solo vista previa: abrir PDF en nueva pestaña */}
-        <a
-          href="/files/CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-blue-600 rounded-xl hover:bg-blue-700 transition inline-block"
-        >
-          {t("view")}
-        </a>
-      </div>
+      
 
       {/* ======= Sección About ======= */}
       <section
         id="about"
         style={{ scrollMarginTop: "6rem" }}
-        className="mt-25 w-full max-w-3xl border-t border-slate-700 pt-8 pb-20"
+        className="mt-27 w-full max-w-3xl border-t border-slate-700 pt-8 pb-20"
       >
         <h2 className="text-3xl font-bold mb-8">{tAbout("title")}</h2>
         <p className="mb-6 text-lg text-left text-slate-200">{tAbout("p1")}</p>
