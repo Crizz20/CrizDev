@@ -71,11 +71,11 @@
           "description": "Manage products, returns, customers and orders. Built with Next.js, Tailwind and MongoDB."
         },
         "project2": {
-          "title": "Basic ecommerce",
+          "title": "Ecommerce",
           "description": "Online store. Technologies: Next.js, Typescript, Tailwind and PostgreSQL."
         },
         "project3": {
-          "title": "Pixabay API Consumer App",
+          "title": "Web app consuming the Pixabay API",
           "description": "Web app that consumes the Pixabay API. Built with Next.js, Tailwind and MongoDB Atlas."
         }
       }

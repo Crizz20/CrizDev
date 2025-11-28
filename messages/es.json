@@ -54,7 +54,7 @@
         },
         "coursera": {
           "title": "Git y GitHub",
-          "provider": "Coursera",
+          "provider": "Crehana - tecMD",
           "duration": "4.5 horas"
         },
         "platzi": {
@@ -72,11 +72,11 @@
             "description": "Gestión de productos, devoluciones, clientes y pedidos. Tecnologías: Next.js, Tailwind y MongoDB."
           },
           "project2": {
-            "title": "Ecommerse básico",
+            "title": "Ecommerse",
             "description": "Tienda virtual. Tecnologías: Next.js, Typescript, Tailwind y Posgrest."
           },
           "project3": {
-            "title": "App que consume la API de Pixabay",
+            "title": "App wed consumiendo API de Pixabay",
             "description": "Aplicación web que consume la API de Pixabay. Tecnologías: Next.js, Tailwind y MongoDB Atlas."
           }
         }
